@@ -2,6 +2,8 @@ library(tidytuesdayR)
 library(ggstatsplot)
 library(dplyr)
 library(labourR)
+
+options(scipen = 999)
  
 # Data
 tt_output <- tt_load_gh("2021-05-18")
